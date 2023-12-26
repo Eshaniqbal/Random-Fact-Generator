@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fact Generator</title>
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css?family=poppins:400,700&display=swap');
+    body {
+    font-family: Arial, sans-serif;
+    background-color: #163020;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+button{
+   
+    background-color: #3498db;
+    border: none;
+    color: #fff;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+width: 200px;
+}
+
+button:hover {
+    background-color: #2980b9;
+    box-shadow: 10px 10px 10px 0 black;
+}
+
+#fact {
+    font-size: 18px;
+    color: #ffffff;
+    margin: 20px;
+    padding: 20px;
+}
+
+body, html {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  
+}
+#heading{
+    color: #FF90BC;
+    font-size: 40px;
+    font-weight: 600;
+    font-family: poppins;
+
+}
+
+</style>
+<body> 
+    <nav>
+        <h1 id="heading">Fact Generator</h1>
+    </nav>
+   
+     <p id="fact"></p>
+ 
+     <div class="btn">
+    <button id="reloadButton">Generate Another</button>
+</div>
+    <script src="script.js"></script>
+</body>
+</html>
